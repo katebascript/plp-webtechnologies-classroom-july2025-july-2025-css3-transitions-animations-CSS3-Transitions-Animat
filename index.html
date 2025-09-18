@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive CSS & JS Animations</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🌟 Bringing Web Pages to Life 🌟</h1>
+  </header>
+
+  <!-- ========================= -->
+  <!-- Part 1: CSS Animations -->
+  <!-- ========================= -->
+  <section id="part1">
+    <h2>Part 1: CSS Transitions & Animations</h2>
+    <!-- Hover animation on button -->
+    <button class="animated-btn">Hover Me</button>
+
+    <!-- Continuous keyframe animation -->
+    <div class="box"></div>
+  </section>
+
+  <!-- ========================= -->
+  <!-- Part 2: JavaScript Functions -->
+  <!-- ========================= -->
+  <section id="part2">
+    <h2>Part 2: JavaScript Functions</h2>
+    <!-- Button triggers function that uses parameters & return -->
+    <button onclick="showSum()">Calculate Sum</button>
+    <p id="result"></p>
+  </section>
+
+  <!-- ========================= -->
+  <!-- Part 3: CSS + JS Integration -->
+  <!-- ========================= -->
+  <section id="part3">
+    <h2>Part 3: CSS + JavaScript Together</h2>
+    <!-- Buttons trigger animations via JS -->
+    <button onclick="animateBox()">Animate the Box</button>
+    <button onclick="toggleModal()">Toggle Modal</button>
+    <div class="box2"></div>
+  </section>
+
+  <!-- Modal Window -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <!-- Close button calls function -->
+      <span onclick="toggleModal()" class="close">&times;</span>
+      <p>Hello! I slide and fade in with CSS and JS 🎬</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
